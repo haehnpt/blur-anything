@@ -1,6 +1,8 @@
 # blur-anything
 A Firefox Extension to blur / unblur any element on a website via CTRL + Right Click
 
+https://addons.mozilla.org/en-US/firefox/addon/blur_anything
+
 ## Why does this exist?
 It is sometimes useful to hide business information or personal details when presenting something e.g. in a customer review.
 
