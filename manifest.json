@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "blur",
+    "version": "1.0",
+    "description": "Blur / unblur anything on a website via CTRL + Right Click",
+    "developer": {
+        "name": "Patrick Hähn",
+        "url": "https://haehn.me"
+    },
+  
+    "icons": {
+      "96": "icons/blur96.png",
+      "48": "icons/blur48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["blur.js"]
+      }
+    ]
+  }
